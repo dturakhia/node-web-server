@@ -49,7 +49,7 @@ app.get("/",function (req, res) {
 app.get("/mrmrs",function(req, res){
 	console.log(res);
 	res.send({
-
+		issueReport : "1"
 	});
 });
 
