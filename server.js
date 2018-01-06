@@ -48,9 +48,13 @@ app.get("/",function (req, res) {
 
 app.get("/mrmrs",function(req, res){
 	console.log(res);
-	res.send({
-		issueReport : "1"
-	});
+	//if(id == ObjectId(req.params.id)){
+		res.send({
+			issueReport : "2"
+		});
+	/*} else {
+		res.send({});
+	}*/
 });
 
 app.get("/about",function(req, res){
