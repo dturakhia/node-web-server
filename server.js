@@ -50,7 +50,7 @@ app.get("/mrmrs",function(req, res){
 	console.log(res);
 	//if(id == ObjectId(req.params.id)){
 		res.send({
-			issueReport : "1"
+			issueReport : "2"
 		});
 	/*} else {
 		res.send({});
