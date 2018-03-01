@@ -57,6 +57,17 @@ app.get("/mrmrs",function(req, res){
 	}*/
 });
 
+app.get("/heritage-galaxy",function(req, res){
+	console.log(res);
+	//if(id == ObjectId(req.params.id)){
+		res.send({
+			issueReport : "2"
+		});
+	/*} else {
+		res.send({});
+	}*/
+});
+
 app.get("/about",function(req, res){
 	res.render("about.hbs", {
 		pageTitle : "About Page From JS"
