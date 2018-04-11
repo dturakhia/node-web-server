@@ -68,6 +68,12 @@ app.get("/heritage-galaxy",function(req, res){
 	}*/
 });
 
+app.get("/rya-metro-cfb",function(req, res){
+	res.send({
+		link: "http://chennaifoodbank.com/"
+	});
+});
+
 app.get("/about",function(req, res){
 	res.render("about.hbs", {
 		pageTitle : "About Page From JS"
